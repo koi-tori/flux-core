@@ -1,0 +1,8 @@
+def int add(int a, int b):
+    return a + b
+
+def void main():
+    x = input("Give a number:")
+    y = input("Give another number:")
+    sum = add(x, y)
+    print(sum)
